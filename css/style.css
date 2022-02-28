@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 3.5rem;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2rem;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+
+section.normal {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Living-Room_Back-to-Nature-S340-4.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+#imageF {
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/1377440227473.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#image {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/background\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#image3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/we-zoom-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+section.imagem {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Living-Room_Blueprint-S470-5.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 400px;
+}
+
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
